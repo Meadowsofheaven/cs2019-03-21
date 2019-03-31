@@ -8,9 +8,12 @@ package by.it.shastin.lesson02;
 Для автоматической проверки откройте и запустите класс Testing
 */
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 class TaskA2 {
     public static void main(String[] args) {
-
+        for (int i = 0; i < 5; i++)
+        System.out.println("Я начинаю изучать Java!");
     }
 
 }
